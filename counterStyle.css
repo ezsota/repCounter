@@ -1,0 +1,106 @@
+html {
+    background-color: black;
+    background-image: url("imgs/lrglogo.svg");
+    background-repeat: no-repeat;
+    background-size: 1400px;
+    margin: auto;
+}
+
+#glogo {
+    max-width: 150px;
+}
+
+body {
+    text-align: center;
+}
+
+@media screen and (max-width: 1200px){
+    div {
+        width: 300px;
+        margin: 25% auto;
+        /* color: blue; FOR TESTING*/
+    }    
+}
+
+@media screen and (min-width: 1201px){
+    div {
+        width: 400px;
+        margin: 5% auto;
+        /* color: brown; FOR TESTING*/
+    }    
+}
+
+section {
+    margin-top: 10%;
+}
+
+div {
+    background-image: url("");
+    background-size: cover;
+    font-family:  'Brush Script MT', cursive;
+    font-weight:bold;
+    background-color: white;
+    padding: 2px 0px;
+    font-size: 30px;
+    border-radius: 25px;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#increment-btn {
+    background: gold;
+    border: solid black 2px;
+    color: black;
+}
+
+#increment-btn:hover {
+    background: black;
+    border: solid gold 2px;
+    color: gold;
+}
+
+#save-btn {
+    background: gold;
+    border: solid black 2px;
+    color: black;
+}
+
+#save-btn:hover {
+    background: black;
+    border: solid gold 2px;
+    color: gold;
+}
+
+#reset-btn {
+    background: black;
+    border: solid grey 2px;
+    color: grey;
+}
+
+#reset-btn:hover {
+    background: black;
+    border: solid grey 2px;
+    color: white;
+}
+
+
